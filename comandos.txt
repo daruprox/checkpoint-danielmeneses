@@ -1,0 +1,192 @@
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses
+$ git init
+Initialized empty Git repository in C:/Users/danie/Desktop/checkpoint-danielmeneses/.git/
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (master)
+$ git init checkpoint-danielmeneses
+Initialized empty Git repository in C:/Users/danie/Desktop/checkpoint-danielmeneses/checkpoint-danielmeneses/.git/
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses
+$ git remote add origin https://github.com/daruprox/checkpoint-danielmeneses.git
+fatal: not a git repository (or any of the parent directories): .git
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses
+$ git config user.name "daruprox"
+fatal: not in a git directory
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses
+$ git config user.name "daruprox"
+fatal: not in a git directory
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses
+$ git init
+Initialized empty Git repository in C:/Users/danie/Desktop/checkpoint-danielmeneses/.git/
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (master)
+$ git branch -M main
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ git remote add origin https://github.com/daruprox/checkpoint-danielmeneses.git
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ touch main.js
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ touch index.html
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ commit -m "01 de danielmeneses"
+bash: commit: command not found
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ commit -m 01 de danielmeneses
+bash: commit: command not found
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ commit -m "01 de danielmeneses"
+bash: commit: command not found
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ commit -m "01 de danielmeneses"
+bash: commit: command not found
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ commit -m "01 de danielmeneses"
+bash: commit: command not found
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ commit -m "01 de danielmeneses"
+bash: commit: command not found
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ commit -m "01dedanielmeneses"
+bash: commit: command not found
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ git add .
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ commit -m "01 de danielmeneses"
+bash: commit: command not found
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ git commit -m "01 de danielmeneses"
+[main (root-commit) b79aeea] 01 de danielmeneses
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ git remote add origin https://github.com/daruprox/checkpoint-danielmeneses.git
+error: remote origin already exists.
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 225 bytes | 225.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/daruprox/checkpoint-danielmeneses.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ git branch feature
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ git checkout feature
+Switched to branch 'feature'
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (feature)
+$ mkdir hardware software seguridadinformatica
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (feature)
+$ cd hardware
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses/hardware (feature)
+$ touch resumen.txt
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses/hardware (feature)
+$ cd ..
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (feature)
+$ cd software
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses/software (feature)
+$ touch resumen.txt
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses/software (feature)
+$ cd ..
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (feature)
+$ cd seguridadinformatica
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses/seguridadinformatica (feature)
+$ touch resumen.txt
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses/seguridadinformatica (feature)
+$ gid add .
+bash: gid: command not found
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses/seguridadinformatica (feature)
+$ git add .
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses/seguridadinformatica (feature)
+$ git commit -m "02 de danielmeneses"
+[feature d6930f5] 02 de danielmeneses
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 seguridadinformatica/resumen.txt
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses/seguridadinformatica (feature)
+$ git push origin feature
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 344 bytes | 344.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/daruprox/checkpoint-danielmeneses/pull/new/feature
+remote:
+To https://github.com/daruprox/checkpoint-danielmeneses.git
+ * [new branch]      feature -> feature
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses/seguridadinformatica (feature)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses/seguridadinformatica (main)
+$ mv main.js resumenhardware.txt
+mv: cannot stat 'main.js': No such file or directory
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses/seguridadinformatica (main)
+$ cd ..
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ mv main.js resumenhardware.txt
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ mv index.html resumensoftware.txt
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ tocuh comandos.txt
+bash: tocuh: command not found
+
+danie@Daniel MINGW64 ~/Desktop/checkpoint-danielmeneses (main)
+$ touch comandos.txt
